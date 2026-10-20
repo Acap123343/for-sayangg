@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khas Untuk Nur Umairah Batrisyia ❤️</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif, Arial;
+        }
+
+        body {
+            background: linear-gradient(135deg, #e0f2fe 0%, #ffffff 50%, #bae6fd 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: hidden;
+            position: relative;
+            color: #1e3a8a;
+            padding: 20px 0;
+        }
+
+        /* Floating Hearts Animation */
+        .heart {
+            position: fixed;
+            top: -10vh;
+            font-size: 1.5rem;
+            color: #38bdf8;
+            user-select: none;
+            pointer-events: none;
+            animation: fall linear forwards;
+            z-index: 1;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(105vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* Container Card */
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border: 2px solid #bae6fd;
+            border-radius: 24px;
+            padding: 25px;
+            max-width: 420px;
+            width: 90%;
+            box-shadow: 0 10px 30px rgba(56, 189, 248, 0.25);
+            text-align: center;
+            z-index: 10;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .slide {
+            display: none;
+            animation: fadeIn 0.8s ease;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            color: #0284c7;
+            font-size: 1.6rem;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #334155;
+            font-size: 0.98rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .img-box {
+            width: 100%;
+            height: 270px;
+            border-radius: 18px;
+            overflow: hidden;
+            margin-bottom: 15px;
+            border: 3px solid #7dd3fc;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Bubu & Dudu Cartoon Styling */
+        .bubu-dudu-img {
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 5px auto 12px auto;
+            display: block;
+            border: 3px solid #7dd3fc;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            animation: bounce 2s infinite ease-in-out;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #38bdf8, #0284c7);
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(2, 132, 199, 0.4);
+        }
+
+        /* YouTube Player Styling */
+        .youtube-box {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 12px;
+            border: 2px solid #7dd3fc;
+            margin-top: 15px;
+        }
+
+        .youtube-box iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- SLIDE 1: Personal Photo & Clingy Message -->
+        <div class="slide active" id="slide1">
+            <h1>Nur Umairah Batrisyia 💙</h1>
+            <div class="img-box">
+                <img src="5b96e5c5-a4a2-4c65-a580-5a0b5dc02a0e_17795c.jpeg" alt="Nur Umairah Batrisyia">
+            </div>
+            <p>
+                SAYANGGG BABYY KANN TAK BOLEHH LA TGOK MUKAA SAYANGG YANG COMELL NII NNTI BABYY PENGSANN TAUU HAHAHAHAHA🫶🏻🫶🏻 NII WEBSITE BABY BUAT UNTUKK SAYANGGG HARAPP SAYANG SUKAA LAA HIHIHIH🤍🤍😼
+            </p>
+            
+            <!-- Gambar Bubu & Dudu Comel -->
+            <img src="IMG_7024_17849d.jpeg" alt="Bubu & Dudu Kiss" class="bubu-dudu-img">
+
+            <button class="btn" onclick="nextSlide()">Tekan Sini Sayang ➡️</button>
+        </div>
+
+        <!-- SLIDE 2: Couple Photo & YouTube Music Player -->
+        <div class="slide" id="slide2">
+            <h1>Kita Berdua 👩‍❤️‍👨</h1>
+            <div class="img-box">
+                <img src="IMG_6948_17795c.jpeg" alt="Kita Berdua">
+            </div>
+            <p>
+                "You can be my Cinderella..." 🎶<br>
+                Every moment with you feels like a dream. Love you so much Nur Umairah Batrisyia! 💖
+            </p>
+            
+            <!-- Embedded YouTube Player (Mac Miller - Cinderella) -->
+            <div class="youtube-box">
+                <iframe id="ytPlayer" src="https://www.youtube.com/embed/0fcsGS1dEro?enablejsapi=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Heart Fall Effect
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            const hearts = ['💙', '🩵', '🤍', '✨', '❤️'];
+            heart.innerText = hearts[Math.floor(Math.random() * hearts.length)];
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = Math.random() * 3 + 2 + 's';
+            heart.style.fontSize = Math.random() * 10 + 15 + 'px';
+            document.body.appendChild(heart);
+
+            setTimeout(() => {
+                heart.remove();
+            }, 5000);
+        }
+
+        setInterval(createHeart, 300);
+
+        // Slide Navigation & Play YouTube Video
+        function nextSlide() {
+            document.getElementById('slide1').classList.remove('active');
+            document.getElementById('slide2').classList.add('active');
+            
+            // Autoplay YouTube Video
+            var iframe = document.getElementById('ytPlayer');
+            iframe.src += "&autoplay=1";
+        }
+    </script>
+</body>
+</html>
